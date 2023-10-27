@@ -17,8 +17,10 @@ export function HomeFooter({ maxWidth = "1150px" }: HomeFooterProps) {
         style={{ maxWidth: maxWidth }}
       >
         <div className="flex flex-grow items-start">
-          <Logo />
+          {/* <Logo /> */}
         </div>
+
+{/*         
         <ol className="flex ml-2">
           <li className="mr-2 hover:cursor-pointer text-white/70 hover:text-white transition">
             <Link to="/privacy">Privacy</Link>
@@ -46,7 +48,9 @@ export function HomeFooter({ maxWidth = "1150px" }: HomeFooterProps) {
               <TwitterIcon />
             </a>
           </li>
-        </ol>
+        </ol> */}
+
+
       </div>
     </footer>
   );

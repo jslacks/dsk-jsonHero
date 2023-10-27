@@ -83,7 +83,7 @@ export function HomeFeatureGridSection() {
             titleClassName="text-white"
           >
             <Body className="text-slate-400">
-              Use jsonhero.io or fork it on GitHub and run it yourself.
+              {/* Use jsonhero.io or fork it on GitHub and run it yourself. */}
             </Body>
           </HomeGridFeatureItem>
         </div>

@@ -20,7 +20,7 @@ export function HomeHeader({ fixed }: { fixed?: boolean }) {
       } z-20 flex h-[82px]  bg-indigo-700 flex-col`}
     >
       <div className="flex h-8 bg-slate-900 w-full items-center justify-center text-base sm:text-lg ">
-        <a
+        {/* <a
           href="https://trigger.dev"
           target="_blank"
           aria-label="Trigger.dev logo"
@@ -40,10 +40,10 @@ export function HomeHeader({ fixed }: { fixed?: boolean }) {
             Sign up here
           </a>
           .
-        </p>
+        </p> */}
       </div>
       <div className="flex items-center justify-between w-screen px-4">
-        <div className="flex w-28 sm:w-44 mr-3">
+        {/* <div className="flex w-28 sm:w-44 mr-3">
           <Logo />
         </div>
         <ol className="flex items-center gap-2 sm:pr-4 pr-2">
@@ -80,7 +80,7 @@ export function HomeHeader({ fixed }: { fixed?: boolean }) {
               <TwitterIcon />
             </a>
           </li>
-        </ol>
+        </ol> */}
       </div>
     </header>
   );

@@ -5,5 +5,6 @@ export type IconProps = {
 };
 
 export function HomeApiHeroLaptop({ className }: IconProps) {
-  return <img src={ApiHeroLaptop} className={className} />;
+  return null;
+  // return <img src={ApiHeroLaptop} className={className} />;
 }
